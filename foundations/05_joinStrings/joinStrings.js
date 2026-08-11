@@ -10,12 +10,15 @@
 // Add your code right below, good luck!
 
 
-const firstName = "Carlos ";
+const firstName = "Carlos";
 const lastName = "Stevenson";
 const thisYear = 1965;
 const birthYear = 1947;
 
-const greeting = "Hello! My name is " + firstName + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+
+const fullName = "Carlos Stenvenson";
+const age = 18
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
